@@ -28,23 +28,23 @@ export class AppComponent implements OnInit {
 		});
 
 		this.map = new Map({
-				layers: [this.layer],
-				target: 'map',
-				view: new View({
-					center: [0, 0],
-					zoom: 2
-				})
+			layers: [this.layer],
+			target: 'map',
+			view: new View({
+				center: [0, 0],
+				zoom: 2
+			})
 		});
 
 		const pos = fromLonLat([16.3725, 48.208889]);
 
 		// Vienna marker
 		this.marker = new Overlay({
-				position: pos,
-				positioning: 'center-center',
-				element: document.getElementById('marker'),
-				stopEvent: false
-			});
+			position: pos,
+			positioning: 'center-center',
+			element: document.getElementById('marker'),
+			stopEvent: false
+		});
 		this.map.addOverlay(this.marker);
 
 		// Vienna label
