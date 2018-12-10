@@ -1,3 +1,7 @@
+#map {
+    height: 100vh;
+}
+
 #marker {
     width: 20px;
     height: 20px;
