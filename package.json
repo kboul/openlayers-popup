@@ -27,7 +27,6 @@
     "jquery": "^3.3.1",
     "ol": "^5.1.3",
     "rxjs": "^6.3.3",
-    "webpack-dev-server": "^3.1.14",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -49,6 +48,7 @@
     "protractor": "^5.4.2",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~3.1.3"
+    "typescript": "~3.1.3",
+    "webpack-dev-server": "^3.1.14"
   }
 }
