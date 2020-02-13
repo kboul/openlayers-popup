@@ -116,5 +116,8 @@
 			}
 		}
 	},
-	"defaultProject": "openlayers-popup"
+	"defaultProject": "openlayers-popup",
+	"cli": {
+		"analytics": false
+	}
 }

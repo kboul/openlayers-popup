@@ -59,7 +59,7 @@ export class AppComponent implements OnInit {
 		});
 		this.map.addOverlay(popup);
 
-		this.map.on("click", function(evt) {
+		this.map.on("click", function (evt) {
 			const element = popup.getElement();
 			const coordinate = evt.coordinate;
 			const hdms = toStringHDMS(toLonLat(coordinate));
