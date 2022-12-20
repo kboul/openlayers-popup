@@ -1,8 +1,8 @@
 # OpenlayersPopup
 
-Click on map & get location coordinates using openlayers 6.x, jQuery, popovers from bootstrap & Angular 10.
+Click on map & get location coordinates using openlayers 6.x, jQuery, popovers from bootstrap & Angular 14.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.
 
 ## Development server
 

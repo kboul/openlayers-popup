@@ -122,8 +122,7 @@
 				}
 			}
 		}
-	},
-	"defaultProject": "openlayers-popup",
+  },
 	"cli": {
 		"analytics": false
 	}
