@@ -15,7 +15,7 @@ declare var $: any;
 	styleUrls: ["./app.component.css"]
 })
 export class AppComponent implements OnInit {
-	layer: TileLayer;
+	layer: TileLayer<any>;
 	map: Map;
 	marker;
 	view: View;
